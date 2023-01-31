@@ -1,0 +1,146 @@
+/* rem and em donot depend on html font-size in media queries! Instead,
+1rem=1em=16px */
+/******************************/
+/*BELOW 1344PX(Smaller desktops)*/
+/******************************/
+@media (min-width) {
+  .video-img2 {
+    width: 90%;
+  }
+}
+@media (max-width: 84em) {
+  .main-nav-link.nav-cta:link,
+  .main-nav-link.nav-cta:visited {
+    margin-left: 0rem;
+  }
+  .video-img2 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 80em) {
+  html {
+    font-size: 58%;
+  }
+  .hero-img {
+    max-width: 100%;
+  }
+}
+@media (max-width: 79em) {
+  .marketing-box-img {
+    display: none;
+  }
+}
+@media (max-width: 59em) {
+  html {
+    font-size: 27%;
+  }
+  .hero-img-box {
+    align-self: end;
+  }
+  .section-how {
+    padding: 4.6rem 9.6rem;
+  }
+  .heading-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .heading-secondary {
+    text-align: center;
+  }
+  .heading-subtitle {
+    margin-bottom: 2rem;
+  }
+  .features div i {
+    margin: auto;
+  }
+  .features-2 {
+    text-align: center;
+  }
+  .choice-container {
+    justify-content: center;
+    margin-top: -5rem;
+    justify-content: center;
+    row-gap: 6rem;
+  }
+
+  .features-box {
+    text-align: center;
+  }
+
+  .features-container {
+    flex-direction: column;
+  }
+  .video-img1 {
+    width: 85%;
+  }
+  .video-img2 {
+    display: none;
+  }
+  .video-description {
+    width: auto;
+  }
+  .btn-icon {
+    display: none;
+  }
+  .queries-img-box {
+    width: 100%;
+  }
+  .queries-img {
+    width: 75%;
+    display: inline;
+  }
+  .choice-img {
+    width: 85%;
+  }
+
+  /*SECTION RATING*/
+  .section-rating {
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .background-img {
+    width: 100%;
+    height: 60rem;
+  }
+  .rating-left {
+    text-align: center;
+    top: 2.2rem;
+  }
+  .rating-right {
+    width: 87%;
+    text-align: center;
+    top: 23rem;
+    right: 0rem;
+    z-index: 2;
+    position: absolute;
+  }
+  .btn-container {
+    display: none;
+  }
+  .sponsers-img-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+  }
+  /*FOOTER SECTION*/
+  .grid--footer {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .logo-col {
+    text-align: center;
+  }
+  .nav-col {
+    text-align: center;
+  }
+  .address-col {
+    text-align: center;
+  }
+}
